@@ -92,7 +92,7 @@ def upload():
         preds = model_predict(file_path, model)
 
         x = np.argmax(preds)
-        print(x)
+        # print(x)s
 
         #
 
